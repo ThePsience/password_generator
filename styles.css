@@ -11,20 +11,25 @@ body {
   max-width: 60%;
   border-radius: 20px;
   padding: 20px;
-}
-#flex-box {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+}
+#length {
+  color: aliceblue;
+}
+#lengthInput {
+  background-color: aliceblue;
 }
 #output {
   flex-grow: 1;
   background-color: aliceblue;
   border-radius: 20px;
   padding: 10px;
+  width: 200px;
+  text-align: center;
 }
-#button {
+#generateButton {
   background-color: aliceblue;
   margin-left: 10px;
   border-radius: 20px;
@@ -33,4 +38,16 @@ body {
 h1 {
   text-align: center;
   color: aliceblue;
+}
+div#checkboxes {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  background-color: rgb(52, 52, 52);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  color: aliceblue;
+}
+.checkbox {
+  margin: 10px 0px 10px 10px;
 }
